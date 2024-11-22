@@ -77,3 +77,6 @@ body::after{
 .description {
 	padding-left: 40px;
 }
+html {
+	scroll-behavior: smooth;
+}
