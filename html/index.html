@@ -2,8 +2,13 @@
 <html>
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		</div>
 </head>
+<style>
+
+
+</style>
 <body>
 	<div class="nav-bar">
 		<a href="http://www.aidanmeyer.net" class="nav-link">Home</a>
@@ -17,10 +22,16 @@
 	</div>
 	<div class="content">
 		<h1>Aidan Meyer</h1>
-		
-		<p>Welcome to my page! I am an undergraduate student at the University of Mary Washington, set to graduate in May 2025. My major is computer science, with my main focus going towards software and web development. I specialize in Java, Python, C++, and creating never-ending HTML files.</p>
-		<p>If you'd like to know more about me, vist my home page <a href="/about">here</a></p>		
-			
+		<div class="description">
+
+			<div class="description-image">
+				<img src="images/aidan.png" width="200px">	
+			</div>
+
+			<p>Welcome to my page! I am an undergraduate student at the University of Mary Washington, set to graduate in May 2025. My major is computer science, with my main focus going towards software and web development. I specialize in Java, Python, C++, and creating never-ending HTML files.</p>
+			<p class="home-link">If you'd like to know more about me, visit my about page <a href="/about">here</a></p>
+		</div>
+
 		<hr>
 
 		<h3>Contact Information</h3>
@@ -45,6 +56,40 @@
 		<hr>
 
 		<h3 id="projects">Projects</h3>
+		<hr>
+
+		<h4>Algorithm Projects</h4>
+		
+		<p><b>Encryption & Decryption</b></p>
+		<p>Takes user input and operation selection and performs either encryption or decryption on the given line.</p>
+		<p>Github repository can be found <a href="https://github.com/aidanmeyer32/Encryption-">here.</a></p>
+		
+		<p><b>Euler's Conjecture & Karatsuba Algorithm</b></p>
+		<p>Algorithms that take user input and perform selected algorithm. Euler's conjecture is an algorithm that builds on the idea that as powers increase, it becomes less likely to find combinations of numbers that satisfy such equations. Karatsuba method is an algorithm that is used to multiply large numbers by reducing the number of operations needed.</p>
+		<p>Github repository can be found <a href="https://github.com/aidanmeyer32/Eulers-and-Karatsuba">here.</a></p>
+
+		<p><b>Russian Multiplication & Babylonian Method</b></p>
+		<p>Takes user input and performs selected algorithm. Russian multiplication is a method for multiplying two numbers usign addition, halving, and doubling. The Babylonian method is an iterative algorithm that is used to calculate the square root of a number by making an initial guess, then refines the guess using a specific formula.</p>
+		<p>Github repository can be found <a href="https://github.com/aidanmeyer32/Russian-and-Babylonian">here.</a></p>
+
+		<p><b>Sum of Primes & Permutation</b></p>
+		<p>Two algorithms that perform either the sum of two primes or permutation.</p>
+		<p>Github repository can be found <a href="https://github.com/aidanmeyer32/Sum-of-Primes-and-Permutation-">here.</a></p>
+
+		<hr>
+
+		<h4>CPSC 491 - Individual Study/Internship Project</h4>
+		<p>Develop a large language model that is used to suggest policy options that address filed FCC proposed rules that are meant to reduce cyber risk for emergency alerting systems. In this project, our team decided to use OpenAI's GPT-4o API to implement this recommendation model.</p>
+		<p>Github repository can be found <a href="https://github.com/aidanmeyer32/suggestionLLM">here.</a></p>
+
+		<hr>
+
+		<h4>Web Development Projects</h4>
+		<p><b>Music Database - CPSC 350 - Application of Databases</b></p>
+		<p>An interactive server-side website that uses SQLite, Redis, and MongoDB to display different music statistics.</p> 
+		<p>A link to this website can be found <a href="http://cpsc.umw.edu:35051/home">here.</a></p>
+
+		<hr>
 	</div>
 	<script src="js/script.js></script>
 </body>
